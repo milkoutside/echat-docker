@@ -9,23 +9,11 @@ export default defineConfig({
                 'resources/css/app.css',
                 'resources/ts/app.ts'
             ],
-            refresh: true,
+            refresh: false, // Отключаем refresh для production
         }),
 
         vue(),
     ],
-    server: {
-        host: '0.0.0.0',
-        port: 5173,
-        strictPort: true,
-        // origin и HMR настраиваются через переменные окружения, чтобы корректно работать за обратным прокси
-        origin: process.env.VITE_DEV_ORIGIN || undefined,
-        hmr: {
-            host: process.env.VITE_DEV_HMR_HOST || undefined,
-            port: process.env.VITE_DEV_HMR_PORT ? Number(process.env.VITE_DEV_HMR_PORT) : undefined,
-            protocol: (process.env.VITE_DEV_HMR_PROTOCOL as 'ws' | 'wss' | undefined) || undefined,
-        },
-    },
     resolve: {
         alias: {
             '@': path.join(__dirname, '/resources/ts'), // Исправленный алиас
@@ -34,5 +22,13 @@ export default defineConfig({
     },
     build: {
         chunkSizeWarningLimit: 3200, // Лимит размера чанка
+        outDir: 'public/build', // Явно указываем директорию сборки
+        assetsDir: 'assets', // Поддиректория для ассетов
+        manifest: true, // Генерируем manifest.json для Laravel
+        rollupOptions: {
+            output: {
+                manualChunks: undefined, // Отключаем разделение на чанки для простоты
+            }
+        }
     },
 });
