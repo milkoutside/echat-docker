@@ -26,18 +26,18 @@ services:
     networks:
       - app-network
 
-     node:
-     image: node:20-alpine
-     container_name: echat-node
-     working_dir: /var/www
-     environment:
-       - CHOKIDAR_USEPOLLING=true
-     command: sh -c "npm install && npm run build"
-     volumes:
-       - ./:/var/www
-     networks:
-       - app-network
-     restart: unless-stopped
+  node:
+    image: node:20-alpine
+    container_name: echat-node
+    working_dir: /var/www
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    command: sh -c "npm install && npm run build"
+    volumes:
+      - ./:/var/www
+    networks:
+      - app-network
+    restart: unless-stopped
 
   echo:
     build:
