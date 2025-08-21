@@ -50,8 +50,6 @@ services:
       - ECHO_PROTOCOL=http
       - ECHO_REDIS_HOST=redis
       - ECHO_REDIS_PORT=6379
-    ports:
-      - "6001:6001"
     volumes:
       - ./:/var/www
     depends_on:
