@@ -1,7 +1,7 @@
 FROM node:20-alpine
 
 RUN apk add --no-cache supervisor
-RUN npm i -g laravel-echo-server@^1.7.0
+RUN npm i -g laravel-echo-server@^1.6.2
 
 COPY supervisord.conf /etc/supervisord.conf
 COPY laravel-echo-server.json /etc/laravel-echo-server.json
