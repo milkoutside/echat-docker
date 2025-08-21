@@ -1,0 +1,185 @@
+{
+  "\u0000plugin-vue:export-helper": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/@mdi/font/css/materialdesignicons.css": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/styles/main.css": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/css/app.css": [],
+  "resources/ts/Index.vue": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/ts/app.ts": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/ts/components/chat/Chat.vue": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/ts/components/chat/Chat.vue?vue&type=script&setup=true&lang.ts": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/ts/components/chat/Chat.vue?vue&type=style&index=0&scoped=484aec8a&lang.css": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/ts/components/chat/Chat.vue?vue&type=style&index=0&scoped=9af1794b&lang.css": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/ts/components/chat/headers/ChatHeader.vue": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/ts/components/chat/headers/ChatHeader.vue?vue&type=style&index=0&scoped=1da4b2f3&lang.css": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/ts/components/chat/messages/MessageItem/MessageItem.vue": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/ts/components/chat/messages/MessageItem/MessageItem.vue?vue&type=script&setup=true&lang.ts": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/ts/components/chat/messages/MessageItem/MessageItem.vue?vue&type=style&index=0&scoped=4ca2a74d&lang.css": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/ts/components/chat/messages/MessageList.vue": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/ts/components/chat/messages/MessageList.vue?vue&type=script&setup=true&lang.ts": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/ts/components/chat/messages/MessageList.vue?vue&type=style&index=0&scoped=59cc98dc&lang.css": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/ts/importer/importer.ts": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "resources/ts/models/chat/Message.ts": [
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "/build/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/build/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/build/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/build/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ]
+}

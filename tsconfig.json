@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "strict": false,
+        "jsx": "preserve",
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "allowImportingTsExtensions": true,
+        "noImplicitAny": false,
+        "allowJs": true,
+        "baseUrl": "./resources/ts",  // Указываем путь откуда брать алиасы
+        "paths": {
+            "@/*": ["*"]
+        }
+    },
+    "include": [
+        "resources/ts/**/*"
+    ]
+}
