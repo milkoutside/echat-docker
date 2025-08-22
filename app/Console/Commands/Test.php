@@ -42,7 +42,7 @@ class Test extends Command
               8,
                 'success',
                  now(),
-                 2,
+                 1,
                  'outgoing',
                  true,
                   null
