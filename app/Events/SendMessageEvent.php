@@ -27,7 +27,7 @@ class SendMessageEvent implements ShouldBroadcast
     public function broadcastOn()
     {
         // Отправляем событие только на канал этого пользователя
-        return new Channel('client-messages-' . $this->message->clientId);
+        return new Channel('client_' . $this->message->clientId);
     }
 
     public function broadcastAs()
