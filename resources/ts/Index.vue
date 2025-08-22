@@ -177,14 +177,17 @@ onMounted(() => {
   window.Echo = new Echo({
     client: socketio,
     broadcaster: 'socket.io',
-    //host: window.location.hostname + ':6001'
-  //  host: 'https://host.aguaqui.pt:6001',
+    // Используем текущий хост (автоматически определит протокол)
+    host: window.location.protocol + '//' + window.location.hostname,
     allowEIO3: true,
     cors: {
       origin: true,
       credentials: true
     },
-    transports: ['websocket', 'polling', 'flashsocket']
+    transports: ['websocket', 'polling'],
+    // Дополнительные опции для HTTPS
+    secure: window.location.protocol === 'https:',
+    rejectUnauthorized: false
   });
 })
 </script>
