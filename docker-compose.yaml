@@ -4,6 +4,8 @@ services:
       context: ./dockerfiles/php
     container_name: echat-php
     working_dir: /var/www
+    env_file:
+      - docker.env
     volumes:
       - ./:/var/www
     depends_on:
@@ -44,8 +46,9 @@ services:
       context: ./dockerfiles/echo
     container_name: echat-echo
     working_dir: /var/www
+    env_file:
+      - docker.env
     environment:
-      - APP_URL=${APP_URL:-http://localhost}
       - ECHO_PROTOCOL=http
       - ECHO_REDIS_HOST=redis
       - ECHO_REDIS_PORT=6379
@@ -61,11 +64,13 @@ services:
     image: mysql:8.0
     container_name: echat-mysql
     command: --default-authentication-plugin=mysql_native_password
+    env_file:
+      - docker.env
     environment:
-      - MYSQL_ROOT_PASSWORD=${DB_ROOT_PASSWORD:-root}
-      - MYSQL_DATABASE=${DB_DATABASE:-laravel}
-      - MYSQL_USER=${DB_USERNAME:-laravel}
-      - MYSQL_PASSWORD=${DB_PASSWORD:-secret}
+      - MYSQL_ROOT_PASSWORD=${DB_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${DB_DATABASE}
+      - MYSQL_USER=${DB_USERNAME}
+      - MYSQL_PASSWORD=${DB_PASSWORD}
     volumes:
       - mysql-data:/var/lib/mysql
     networks:

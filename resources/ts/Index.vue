@@ -178,7 +178,7 @@ onMounted(() => {
     client: socketio,
     broadcaster: 'socket.io',
     //host: window.location.hostname + ':6001'
-    host: 'https://host.aguaqui.pt:6001',
+  //  host: 'https://host.aguaqui.pt:6001',
     allowEIO3: true,
     cors: {
       origin: true,
