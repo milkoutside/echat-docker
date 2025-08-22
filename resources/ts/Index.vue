@@ -178,7 +178,8 @@ onMounted(() => {
     client: socketio,
     broadcaster: 'socket.io',
     // Используем текущий хост (автоматически определит протокол)
-    host: window.location.protocol + '//' + window.location.hostname,
+   host: `${window.location.protocol}//${window.location.hostname}${window.location.port ? ':' + window.location.port : ''}`,
+   path: '/socket.io',
     allowEIO3: true,
     debug: true,
     cors: {
