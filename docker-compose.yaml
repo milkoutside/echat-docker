@@ -48,6 +48,8 @@ services:
       context: ./dockerfiles/echo
     container_name: echat-echo
     working_dir: /var/www
+    ports:
+      - "6001:6001"
     env_file:
       - docker.env
     environment:
