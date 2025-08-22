@@ -178,6 +178,7 @@ onMounted(async () => {
 });
 
 function newMessagesEvents() {
+    console.log("newMessagesEvents start")
   window.Echo.channel(`client-messages-${store.state.clients.repository.client.id}`)
       .listen('.new_message', (e) => {
         let message = e.message;
