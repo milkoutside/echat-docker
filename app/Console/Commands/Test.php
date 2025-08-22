@@ -33,7 +33,21 @@ class Test extends Command
      */
     public function handle()
     {
-        dd(Broadcast(new InboxMessageEvent(new Messages('3809999999','tes','','','124','success','','2','incoming',false))));
+        dd(Broadcast(new InboxMessageEvent(
+            new Messages(
+                'System',
+                 'Привет из tinker!',
+                'telegram',
+                 null,
+              8,
+                'success',
+                 now(),
+                 2,
+                 'outgoing',
+                 true,
+                  null
+            )
+        )));
 
         dd(  $phoneResults = ZohoCRMApi::getInstance()
             ->api()
