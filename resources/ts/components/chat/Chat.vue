@@ -179,6 +179,7 @@ onMounted(async () => {
 
 function newMessagesEvents() {
     console.log("newMessagesEvents start")
+    console.log("newMessagesEvents start2")
   window.Echo.channel(`laravel_database_client_${store.state.clients.repository.client.id}`)
       .listen('.new_message', (e) => {
         let message = e.message;
