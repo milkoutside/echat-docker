@@ -206,6 +206,12 @@ function newMessagesEvents() {
               })
 
         }
+      })
+      .subscribed(() => {
+        console.log('✅ Успешно подписался на канал клиента:', store.state.clients.repository.client.id);
+      })
+      .error((error) => {
+        console.log('❌ Ошибка подписки на канал:', error);
       });
 }
 
