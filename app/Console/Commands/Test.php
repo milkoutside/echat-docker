@@ -33,11 +33,12 @@ class Test extends Command
      */
     public function handle()
     {
+        dd(Broadcast(new InboxMessageEvent(new Messages('3809999999','tes','','','124','success','','2','incoming',false))));
+
         dd(  $phoneResults = ZohoCRMApi::getInstance()
             ->api()
             ->records()
             ->searchRecords('Leads', 'phone', '380508139234'));
-        dd(Broadcast(new InboxMessageEvent(new Messages('3809999999','tes','','','124','success','','1','incoming',false))));
         $clientRepository = new ClientsRepository();
         $phoneNumber = '097697953783';
         $telegramNickname = 'sj_saha';
