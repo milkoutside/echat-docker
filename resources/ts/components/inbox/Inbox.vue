@@ -318,7 +318,7 @@ async function selectChat(data: { lastMessageWithClient: LastMessageWithClient, 
 
 onMounted(async () => {
     console.log("start inbox")
-    window.Echo.channel('laravel_database_inbox_messages')
+    window.Echo.channel('inbox-messages')
         .listen('.new_message', handleNewMessage);
     loadingSpinner.value = true;
     await fetchClients();
@@ -326,7 +326,7 @@ onMounted(async () => {
 });
 
 onBeforeUnmount(async () => {
-    window.Echo.leave(`laravel_database_inbox_messages`);
+    window.Echo.leave(`inbox-messages`);
 });
 </script>
 

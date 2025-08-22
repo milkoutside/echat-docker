@@ -142,7 +142,7 @@ onMounted(async () => {
 
         await fetchMessages();
         store.commit('ui/spinner/setClose');
-        window.Echo.channel(`laravel_database_client_${store.state.clients.repository.client.id}`)
+        window.Echo.channel(`client-messages-${store.state.clients.repository.client.id}`)
             .listen('.new_message', (e) => {
                 let message = e.message;
 
@@ -178,7 +178,7 @@ onMounted(async () => {
     }
 });
 onBeforeUnmount(async () =>{
-    window.Echo.leave(`laravel_database_client_${store.state.clients.repository.client.id}`);
+    window.Echo.leave(`client-messages-${store.state.clients.repository.client.id}`);
 
 })
 const handleScroll = throttle((e: Event) => {

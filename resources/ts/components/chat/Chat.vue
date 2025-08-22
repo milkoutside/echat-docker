@@ -178,7 +178,7 @@ onMounted(async () => {
 });
 
 function newMessagesEvents() {
-  window.Echo.channel(`laravel_database_client_${store.state.clients.repository.client.id}`)
+  window.Echo.channel(`client-messages-${store.state.clients.repository.client.id}`)
       .listen('.new_message', (e) => {
         let message = e.message;
         let existingMessage = messages.find(msg => msg.message_id === message.message_id);
@@ -210,7 +210,7 @@ function newMessagesEvents() {
 }
 
 onBeforeUnmount(async () => {
-  window.Echo.leave(`laravel_database_client_${store.state.clients.repository.client.id}`);
+  window.Echo.leave(`client-messages-${store.state.clients.repository.client.id}`);
 
 })
 

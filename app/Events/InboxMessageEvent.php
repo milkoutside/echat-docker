@@ -27,7 +27,7 @@ class InboxMessageEvent implements ShouldBroadcast
     public function broadcastOn()
     {
         // Отправляем событие только на канал этого пользователя
-        return new Channel('laravel_database_inbox_messages');
+        return new Channel('inbox-messages');
     }
 
     public function broadcastAs()

@@ -78,7 +78,7 @@ onMounted(async () => {
 })
 onMounted(() => {
 
-    window.Echo.channel(`laravel_database_client_${store.state.clients.repository.client.id}`)
+    window.Echo.channel(`client-messages-${store.state.clients.repository.client.id}`)
         .listen('.new_message', (e) => {
             let message = e.message;
 
