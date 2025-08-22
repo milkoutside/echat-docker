@@ -174,7 +174,7 @@ onMounted(async () => {
   await init();
 });
 onMounted(() => {
-  window.Echo = new Echo({
+      window.Echo = new Echo({
     client: socketio,
     broadcaster: 'socket.io',
     // Используем текущий хост (автоматически определит протокол)
@@ -185,10 +185,7 @@ onMounted(() => {
       origin: true,
       credentials: true
     },
-    transports: ['websocket', 'polling'],
-    // Дополнительные опции для HTTPS
-    secure: window.location.protocol === 'https:',
-    rejectUnauthorized: false
+    transports: ['websocket', 'polling', 'flashsocket']
   });
 })
 </script>
