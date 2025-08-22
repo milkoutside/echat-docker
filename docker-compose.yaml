@@ -15,6 +15,23 @@ services:
       - app-network
     restart: unless-stopped
 
+  queue:
+    build:
+      context: ./dockerfiles/php
+    container_name: echat-queue
+    working_dir: /var/www
+    env_file:
+      - docker.env
+    command: php artisan queue:work --tries=3 --sleep=1
+    volumes:
+      - ./:/var/www
+    depends_on:
+      - redis
+      - mysql
+    networks:
+      - app-network
+    restart: unless-stopped
+    
   nginx:
     build:
       context: ./dockerfiles/nginx
