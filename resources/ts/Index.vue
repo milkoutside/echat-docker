@@ -180,6 +180,7 @@ onMounted(() => {
     // Используем текущий хост (автоматически определит протокол)
     host: window.location.protocol + '//' + window.location.hostname,
     allowEIO3: true,
+    debug: true,
     cors: {
       origin: true,
       credentials: true
